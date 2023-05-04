@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-This e-commerce project is a full-stack web application that provides an intuitive and user-friendly platform for customers to browse, search, and purchase various products. The platform offers a wide range of features, including user authentication, product catalog, shopping cart, secure payment processing, and order management. Built using MongoDB, Express, React, and Node.js (MERN stack), the application also integrates with PayPal Developers to ensure a seamless and secure online shopping experience.
+This e-commerce project is a full-stack web application that provides an intuitive and user-friendly platform for customers to browse and purchase various products. The platform offers a wide range of features, including user authentication, product catalog, shopping cart, secure payment processing, and order management. Built using MongoDB, Express, React, and Node.js (MERN stack), the application also integrates with PayPal Developers to ensure a seamless and secure online shopping experience.
 
 ## :sparkles: Features ##
 
