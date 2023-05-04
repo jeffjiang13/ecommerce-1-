@@ -4,14 +4,7 @@
         "SKIP_BUILD": "true"
       }
     },
-    "routes": [
-      {
-        "src": "/static/(.*)",
-        "dest": "/public/static/$1"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/public/$1"
-      }
-    ]
+    "scripts": {
+      "build": "echo 'Skipping build'"
+    }
   }
