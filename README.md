@@ -3,7 +3,7 @@
 
   &#xa0;
 
-  <a href="https://jj-ecommerce-2.cyclic.app">Demo</a>
+  <a href="https://ecommerce-2-frontend.onrender.com/">Demo</a>
 </div>
 
 <h1 align="center">SWIFTCART</h1>
@@ -85,7 +85,6 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 - [npm](https://www.npmjs.com/)
 - [MongoDB Atlas Account](https://www.mongodb.com/cloud/atlas) (or a local MongoDB instance)
 - [PayPal Developer Account](https://developer.paypal.com/)
-- [Braintree Account](https://www.braintreepayments.com/)
 
 ## Installation
 
