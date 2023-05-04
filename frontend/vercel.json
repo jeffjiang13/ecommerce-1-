@@ -6,6 +6,10 @@
     },
     "routes": [
       {
+        "src": "/static/(.*)",
+        "dest": "/public/static/$1"
+      },
+      {
         "src": "/(.*)",
         "dest": "/public/$1"
       }
