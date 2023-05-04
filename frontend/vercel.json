@@ -1,20 +1,18 @@
 {
+    "version": 2,
     "builds": [
       {
         "src": "package.json",
-        "use": "@vercel/static-build",
+        "use": "@vercel/node",
         "config": {
-          "distDir": "public"
+          "includeFiles": ["src/**/*"]
         }
       }
     ],
     "routes": [
       {
-        "src": "/(.*?)",
-        "dest": "/index.html"
+        "src": "/(.*)",
+        "dest": "src/$1"
       }
-    ],
-    "scripts": {
-      "dev": "vercel-start"
-    }
+    ]
   }
