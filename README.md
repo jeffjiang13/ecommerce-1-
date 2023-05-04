@@ -46,13 +46,13 @@
 
 ## :dart: About ##
 
-This e-commerce project is a full-stack web application that provides an intuitive and user-friendly platform for customers to browse, search, and purchase various products. The platform offers a wide range of features, including user authentication, product catalog, shopping cart, secure payment processing, and order management. Built using MongoDB, Express, React, and Node.js (MERN stack), the application also integrates with PayPal Developers and Braintree to ensure a seamless and secure online shopping experience.
+This e-commerce project is a full-stack web application that provides an intuitive and user-friendly platform for customers to browse, search, and purchase various products. The platform offers a wide range of features, including user authentication, product catalog, shopping cart, secure payment processing, and order management. Built using MongoDB, Express, React, and Node.js (MERN stack), the application also integrates with PayPal Developers to ensure a seamless and secure online shopping experience.
 
 ## :sparkles: Features ##
 
 :heavy_check_mark: Feature 1; sign in and register
 
-:heavy_check_mark: Feature 2; update profile/ check order history/status
+:heavy_check_mark: Feature 2; update profile/check order history/status
 
 :heavy_check_mark: Feature 3; user profile
 
@@ -123,6 +123,3 @@ Made with :heart: by <a href="https://github.com/jeffjiang13" target="_blank">Je
 &#xa0;
 
 <a href="#top">Back to top</a>
-
-## :memo: Admin ##
-admin email : "admin@admin.com"
