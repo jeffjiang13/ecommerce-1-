@@ -24,7 +24,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "vercel-start": "npm run start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -36,8 +35,8 @@
     ]
   },
   "engines": {
-    "node": "16.x"
-  },
+  "node": "16.x"
+},
 
   "browserslist": {
     "production": [
