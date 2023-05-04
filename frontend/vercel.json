@@ -1,10 +1,20 @@
 {
-    "build": {
-      "env": {
-        "SKIP_BUILD": "true"
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "public"
+        }
       }
-    },
+    ],
+    "routes": [
+      {
+        "src": "/(.*?)",
+        "dest": "/index.html"
+      }
+    ],
     "scripts": {
-      "build": "echo 'Skipping build'"
+      "dev": "vercel-start"
     }
   }
