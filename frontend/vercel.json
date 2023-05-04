@@ -4,7 +4,10 @@
         "SKIP_BUILD": "true"
       }
     },
-    "scripts": {
-      "build": "echo 'Skipping build'"
-    }
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/public/$1"
+      }
+    ]
   }
