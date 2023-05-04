@@ -1,0 +1,10 @@
+{
+    "build": {
+      "env": {
+        "SKIP_BUILD": "true"
+      }
+    },
+    "scripts": {
+      "build": "echo 'Skipping build'"
+    }
+  }
