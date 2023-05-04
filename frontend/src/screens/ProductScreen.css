@@ -1,0 +1,40 @@
+/* ProductScreen.css */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 110%;
+}
+
+.product-card-image {
+  object-fit: contain;
+  height: 250px;
+  width: 100%;
+}
+
+.product-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.product-card-title {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-card-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}

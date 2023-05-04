@@ -1,0 +1,18 @@
+main {
+  min-height: 80vh;
+}
+
+/* Import the Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Create a classname for the font */
+.brand-font {
+  font-family: 'Pacifico', cursive;
+}
+.btn {
+  background-color: gray !important;
+  border-color: black !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 10px !important;
+}

@@ -1,0 +1,21 @@
+/* HomeScreen.css */
+.carousel-image {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .carousel {
+    margin-bottom: 1rem;
+  }
+
+  .carousel-item {
+    height: 60vh;
+    overflow: hidden;
+  }
+
+  @media (max-width: 576px) {
+    .carousel-item {
+      height: 30vh;
+      overflow: hidden;
+    }
+  }
