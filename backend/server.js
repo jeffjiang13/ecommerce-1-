@@ -7,6 +7,7 @@ const connectDb = require("./config/config");
 const productRoutes = require("./routes/productsRoute");
 const usersRoutes = require("./routes/UsersRoute");
 const orderRoutes = require("./routes/orderRoute");
+const cors = require('cors');
 
 dotenv.config();
 //connecting to mongodb database
@@ -14,6 +15,7 @@ connectDb();
 const app = express();
 //middleware bodyparser
 app.use(express.json());
+app.use(cors({ origin: 'https://ecommerce-2-frontend.onrender.com' }));
 
 //dotenv config
 app.get("/", (req, res) => {
